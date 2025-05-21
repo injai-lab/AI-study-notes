@@ -1,0 +1,59 @@
+KNN 프로젝트 README.md
+
+
+pip install torchtext==0.11.0
+// torchtext 버전에서 legacy 모듈이 사라져서 다시 재 설치 해줌.
+
+
+pip install spacy
+자연어처리 토크나이저가 설치되어있지 안아서 설치.
+
+Python -m spacy download en_core_web_sm
+
+
+
+
+
+
+
+-------------------------------------------
+
+
+모델을 저장
+
+torch.save(model.state_dict(), 'sentiment-model.pt')
+
+
+
+-------------------------------------------
+
+
+모델을 불러오기.
+
+
+model.load_state_dict(torch.load('sentiment-model.pt'))
+model.eval() # 반드시 평가 모드로 전환!
+
+
+
+-------------------------------------------
+
+실행.
+
+
+
+#불러오기 전에 모델 구조 먼저 재 정의 후 가능
+
+
+
+
+
+------------------------------------------------
+TEXT 객체 함께 저장.
+
+import pickle
+
+
+with open('TEXT_vocab.pkl', 'rb') as f:
+    TEXT = pickle.load(f)
+
