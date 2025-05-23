@@ -14,6 +14,11 @@
 
 ## 📚 목차 (Table of Contents)
 
+### 0️⃣ 환경 설정
+- [anaconda 환경설정](0_Setting/anaconda설정.md)
+- [Visual Studio Code 환경설정](0_Setting/visualstudiocode설정.md)
+- [Git Bash 사용 및 프로젝트 연결](0_Setting/Gitbash설정.md)
+
 ### 1️⃣ 기초 수학
 - [선형대수 정리](01_Math/선형대수.md)
 - [미분/적분 핵심](01_Math/미적분.md)
