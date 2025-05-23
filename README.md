@@ -15,7 +15,7 @@
 ## 📚 목차 (Table of Contents)
 
 ### 0️⃣ 환경 설정
-- [anaconda 환경설정](0_Setting/anaconda설정/anaconda설정.md)
+- [anaconda 환경설정](0_Setting/anaconda설정.md)
 - [Visual Studio Code 환경설정](0_Setting/visualstudiocode설정.md)
 - [Git Bash 사용 및 프로젝트 연결](0_Setting/Gitbash설정.md)
 
