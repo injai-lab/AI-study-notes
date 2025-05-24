@@ -54,7 +54,8 @@ Fare	            운임
 Embarked	   승선 항구 (C/Q/S)
 
 -----------------------------------------------------------------------------------------------------
-titanic.
+titanic.py
+![image](https://github.com/user-attachments/assets/69ca9d71-0d20-4f5b-99e3-83ff05cada71)
 
 
 
@@ -63,13 +64,13 @@ titanic.
 -----------------------------------------------------------------------------------------------------
 
 
-타이타닉/
-├── data/             # 데이터셋 (train.csv, test.csv)
-├── notebook/         # EDA 및 모델링 노트북
-├── model/            # 학습된 모델 저장 (옵션)
-├── submission/       # 제출용 csv 파일
-├── README.md         # 프로젝트 설명
-└── titanic.py        # 스크립트 버전 (선택)
-
+Titanic_Project/
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   └── gender_submission.csv (baseline)
+├── titanic.py
+├── README.md
+└── requirements.txt
 
 
