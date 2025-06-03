@@ -119,7 +119,7 @@ test_loss, test_acc = evaluate(model, test_iterator, criterion)
 print(f'Test Loss : {test_loss:.3f} | Test Acc : {test_acc:.2f}')
 
 
-torch.save(model.state_dict(), 'sentiment-model.pt')
+torch.save(model.state_dict(), 'sentiment-model.pt')  // 모델 저장을 통해 불러오기 가능.
             
 
 
