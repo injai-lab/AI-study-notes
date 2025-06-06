@@ -37,6 +37,7 @@
 ### 4️⃣ 프로젝트 & 실습
 - [타이타닉 생존 예측 프로젝트](04_Projects/타이타닉/README.md)
 - [감성 분석 with RNN](04_Projects/감성분석/README.md)
+- [감성인식 알고리즘](04_Projects/감정인식_알고리즘/README.md)
 - [DCGAN을 활용한 이미지 생성](04_Projects/DCGAN을%20활용한%20이미지%20생성/README.md)
 - [나만의 추천 시스템 만들기](04_Projects/추천시스템/README.md)
 
