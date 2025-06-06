@@ -28,10 +28,15 @@ VScode에서
 import torch
 
 print("CUDA 사용 가능 : ", torch.cuda.is_available())
+
 if torch.cuda.is_available():
+
     print("GPU 이름 : ", torch.cuda.get_device_name(0))
+    
     print("CUDA 버전 : ", torch.version.cuda)
+    
 */
+
 작성하여 TERMINAL에서 잘 나오는지.
 
 ![image](https://github.com/user-attachments/assets/4cc3b0b8-5089-42af-9ee6-c09845156879)
