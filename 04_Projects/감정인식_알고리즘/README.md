@@ -25,7 +25,11 @@ VScode의 TERMINAL에서
   
     pip install konlpy
 
+- Streamlit GUI만들기 패키지
 
+    pip install streamlit
+
+---
 
 
 Anaconda Prompt에서 
