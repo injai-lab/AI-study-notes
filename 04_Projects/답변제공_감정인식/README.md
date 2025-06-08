@@ -27,8 +27,18 @@ pip install datasets
 
 pip install konlpy
 
-Streamlit GUI만들기 패키지
+## 📝 train_classifier.py (emotion_classifier.pt)
 
-pip install streamlit
+![image](https://github.com/user-attachments/assets/c7a5566c-4176-4f47-9991-373ae23dedbc)
 
-Anaconda Prompt에서 "conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia" 작성.
+그래픽카드가 갈려나갔다... ㅋㅋㅋ
+(RTX 2060) epochs = 10을 돌려서
+
+최종  =  loss : 340.0656, accuracy : 0.9701(97%)
+
+torch.save(classifier.state_dict(), "emtion_classifier.pt")
+작성하여 모델로 저장.
+
+
+
+
