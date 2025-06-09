@@ -6,7 +6,7 @@
 # 🧠 AI 공부 노트 모음 (AI Study Notes)
 
 > **작성자:** InJae_AI  
-> **목표:** 한양대/중앙대 AI 대학원 진학  
+> **목표:** DBA직업상 AI직종으로 갈시 데이터를 어떻게 관리하는가를 두고 공부
 > **기간:** 2024.06 ~ (진행 중)  
 > **목표 습관:** 하루 1시간 정리, 주 1회 블로그 업로드, Git 커밋 기록 유지
 
@@ -38,6 +38,7 @@
 - [타이타닉 생존 예측 프로젝트](04_Projects/타이타닉/README.md)
 - [감성 분석 with RNN](04_Projects/감성분석/README.md)
 - [감성인식 알고리즘](04_Projects/감정인식_알고리즘/README.md)
+- [답변제공_감정분석_알고리즘](04_Projects/답변제공_감정인식/README.md)
 - [DCGAN을 활용한 이미지 생성](04_Projects/DCGAN을%20활용한%20이미지%20생성/README.md)
 - [나만의 추천 시스템 만들기](04_Projects/추천시스템/README.md)
 
